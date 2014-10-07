@@ -19,7 +19,7 @@ Documentation
 -------------
 
 The full documentation is at http://{{ cookiecutter.repo_name }}.rtfd.org."""
-history = open('HISTORY.rst').read().replace('.. :changelog:', '')
+history = open('CHANGELOG.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='{{ cookiecutter.repo_name }}',
@@ -45,10 +45,8 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: Implementation :: PyPy',
+        'Programming Language :: Python :: 3.4',
     ],
 )
